@@ -1,7 +1,45 @@
 
-gemfile.lock
-.idea/
+# -----------------------
+# OS / System Files
+# -----------------------
 .DS_Store
-.cmake-build-debug
-.CmakeLists.txt
-Portfolio_Tasks/9.1.3D_Major_Task_Distinction_Level_-_M_GUI_Music_Player/music files
+Thumbs.db
+
+# -----------------------
+# IDE / Editor Configs
+# -----------------------
+.idea/
+.vscode/
+*.iml
+
+# -----------------------
+# Python Bytecode
+# -----------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+
+# -----------------------
+# Build / CMake Output
+# -----------------------
+.cmake-build-debug/
+build/
+dist/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# -----------------------
+# Project-Specific
+# -----------------------
+
+# Ignore music files or other large assets
+Portfolio_Tasks/9.1.3D_Major_Task_Distinction_Level_-_M_GUI_Music_Player/music files/
+
+# Ignore Gemfile lock (if not used in Python project)
+gemfile.lock
